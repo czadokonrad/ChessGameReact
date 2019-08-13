@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessGameReact", "ChessGameReact\ChessGameReact.csproj", "{70B8D647-7856-4D7F-ACDD-CC7F9410A141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessGameReact.Tests", "ChessGameReact.Tests\ChessGameReact.Tests.csproj", "{6D1E2A28-E664-4971-90A3-6667DFA24C1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70B8D647-7856-4D7F-ACDD-CC7F9410A141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B8D647-7856-4D7F-ACDD-CC7F9410A141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B8D647-7856-4D7F-ACDD-CC7F9410A141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B8D647-7856-4D7F-ACDD-CC7F9410A141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1E2A28-E664-4971-90A3-6667DFA24C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1E2A28-E664-4971-90A3-6667DFA24C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1E2A28-E664-4971-90A3-6667DFA24C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1E2A28-E664-4971-90A3-6667DFA24C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5D416D8-4577-498D-ABD9-415E853C14D4}
+	EndGlobalSection
+EndGlobal
