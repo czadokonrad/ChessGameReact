@@ -13,21 +13,21 @@ namespace ChessGameReact.Tests
         public void Bishop_AvailableMoves_For_4x5_AreCorrect()
         {
 
-            List<(byte xPosition, byte yPosition)> availableMovesFromPosition = new List<(byte xPosition, byte yPosition)>
+            List<FigurePosition> availableMovesFromPosition = new List<FigurePosition>
             {
-                (1, 2),
-                (2, 3),
-                (3, 4),
-                (3, 6),
-                (2, 7),
-                (1, 8),
-                (5, 4),
-                (6, 3),
-                (7, 2),
-                (8, 1),
-                (5, 6),
-                (6, 7),
-                (7, 8)
+                new FigurePosition(1, 2),
+                new FigurePosition(2, 3),
+                new FigurePosition(3, 4),
+                new FigurePosition(3, 6),
+                new FigurePosition(2, 7),
+                new FigurePosition(1, 8),
+                new FigurePosition(5, 4),
+                new FigurePosition(6, 3),
+                new FigurePosition(7, 2),
+                new FigurePosition(8, 1),
+                new FigurePosition(5, 6),
+                new FigurePosition(6, 7),
+                new FigurePosition(7, 8)
             };
 
             Bishop bishop = new Bishop(4, 5);

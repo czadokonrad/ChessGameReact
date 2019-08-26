@@ -18,42 +18,26 @@ namespace ChessGameReact.Tests
         }
 
 
-        //[Test]
-        //public void Rook_AvailableMoves_FromStartPosition_AreCorrect()
-        //{
-        //    List<(byte xPosition, byte yPosition)> availableMovesFromStartPosition = new List<(byte xPosition, byte yPosition)>
-        //    {
-        //        (3, 1),
-        //        (5, 1),
-        //        (3, 2),
-        //        (4, 2),
-        //        (5, 2)
-        //    };
-
-
-        //    Assert.That(availableMovesFromStartPosition, Is.EquivalentTo(_rook.GetAvailableMoves().ToList()));
-        //}
-
         [Test]
         public void Rook_AvailableMoves_For_4x5_AreCorrect()
         {
 
-            List<(byte xPosition, byte yPosition)> availableMovesFromPosition = new List<(byte xPosition, byte yPosition)>
+            List<FigurePosition> availableMovesFromPosition = new List<FigurePosition>
             {
-                (1, 5),
-                (2, 5),
-                (3, 5),
-                (4, 1),
-                (4, 2),
-                (4, 3),
-                (4, 4),
-                (4, 6),
-                (4, 7),
-                (4, 8),
-                (5, 5),
-                (6, 5),
-                (7, 5),
-                (8, 5)
+                new FigurePosition(1, 5),
+                new FigurePosition(2, 5),
+                new FigurePosition(3, 5),
+                new FigurePosition(4, 1),
+                new FigurePosition(4, 2),
+                new FigurePosition(4, 3),
+                new FigurePosition(4, 4),
+                new FigurePosition(4, 6),
+                new FigurePosition(4, 7),
+                new FigurePosition(4, 8),
+                new FigurePosition(5, 5),
+                new FigurePosition(6, 5),
+                new FigurePosition(7, 5),
+                new FigurePosition(8, 5)
             };
 
             Rook rook = new Rook(4, 5); 

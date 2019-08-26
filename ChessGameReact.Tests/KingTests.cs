@@ -19,13 +19,13 @@ namespace Tests
         [Test]
         public void King_AvailableMoves_FromStartPosition_AreCorrect()
         {
-            List<(byte xPosition, byte yPosition)> availableMovesFromStartPosition = new List<(byte xPosition, byte yPosition)>
+            List<FigurePosition> availableMovesFromStartPosition = new List<FigurePosition>
             {
-                (3, 1),
-                (5, 1),
-                (3, 2),
-                (4, 2),
-                (5, 2)
+                new FigurePosition(3, 1),
+                new FigurePosition(5, 1),
+                new FigurePosition(3, 2),
+                new FigurePosition(4, 2),
+                new FigurePosition(5, 2)
             };
 
 
@@ -36,16 +36,16 @@ namespace Tests
         public void King_AvailableMoves_For_6x5_AreCorrect()
         {
 
-            List<(byte xPosition, byte yPosition)> availableMovesFromPosition = new List<(byte xPosition, byte yPosition)>
+            List<FigurePosition> availableMovesFromPosition = new List<FigurePosition>
             {
-                (5, 4),
-                (5, 5),
-                (5, 6),
-                (6, 4),
-                (6, 6),
-                (7, 4),
-                (7, 5),
-                (7, 6)
+                new FigurePosition(5, 4),
+                new FigurePosition(5, 5),
+                new FigurePosition(5, 6),
+                new FigurePosition(6, 4),
+                new FigurePosition(6, 6),
+                new FigurePosition(7, 4),
+                new FigurePosition(7, 5),
+                new FigurePosition(7, 6)
             };
 
             King king = new King(6, 5);

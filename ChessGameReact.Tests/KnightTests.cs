@@ -13,16 +13,16 @@ namespace ChessGameReact.Tests
         public void Pawn_AvailableMoves_For_4x4_AreCorrect()
         {
 
-            List<(byte xPosition, byte yPosition)> availableMovesFromPosition = new List<(byte xPosition, byte yPosition)>
+            List<FigurePosition> availableMovesFromPosition = new List<FigurePosition>
             {
-                (2, 3),
-                (3, 2),
-                (2, 5),
-                (3, 6),
-                (5, 2),
-                (5, 6),
-                (6, 3),
-                (6, 5),
+                new FigurePosition(2, 3),
+                new FigurePosition(3, 2),
+                new FigurePosition(2, 5),
+                new FigurePosition(3, 6),
+                new FigurePosition(5, 2),
+                new FigurePosition(5, 6),
+                new FigurePosition(6, 3),
+                new FigurePosition(6, 5),
             };
 
             Knight knight = new Knight(4, 4);

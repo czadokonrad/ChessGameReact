@@ -23,10 +23,10 @@ namespace ChessGameReact.Tests
         {
 
 
-            List<(byte xPosition, byte yPosition)> availableMovesFromStartPosition = new List<(byte xPosition, byte yPosition)>
+            List<FigurePosition> availableMovesFromStartPosition = new List<FigurePosition>
             {
-                (_pawn.StartPosition.xPostion, (byte)(_pawn.StartPosition.yPosition + 1)),
-                (_pawn.StartPosition.xPostion, (byte)(_pawn.StartPosition.yPosition + 2)),
+                new FigurePosition(_pawn.StartPosition.XPosition, (byte)(_pawn.StartPosition.YPosition + 1)),
+                new FigurePosition(_pawn.StartPosition.XPosition, (byte)(_pawn.StartPosition.YPosition + 2)),
             };
 
 
@@ -37,9 +37,9 @@ namespace ChessGameReact.Tests
         public void Pawn_AvailableMoves_For_2x4_AreCorrect()
         {
 
-            List<(byte xPosition, byte yPosition)> availableMovesFromPosition = new List<(byte xPosition, byte yPosition)>
+            List<FigurePosition> availableMovesFromPosition = new List<FigurePosition>
             {
-                (2, 5),
+                new FigurePosition(2, 5),
             };
 
             Pawn pawn = new Pawn(2, 4);

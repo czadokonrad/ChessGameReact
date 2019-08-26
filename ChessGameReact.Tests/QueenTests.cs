@@ -13,35 +13,35 @@ namespace ChessGameReact.Tests
         public void Rook_AvailableMoves_For_4x4_AreCorrect()
         {
 
-            List<(byte xPosition, byte yPosition)> availableMovesFromPosition = new List<(byte xPosition, byte yPosition)>
+            List<FigurePosition> availableMovesFromPosition = new List<FigurePosition>
             {
-                (1, 1),
-                (2, 2),
-                (3, 3),
-                (3, 4),
-                (3, 5),
-                (2, 4),
-                (1, 4),
-                (1, 7),
-                (2, 6),
-                (4, 1),
-                (4, 2),
-                (4, 3),
-                (4, 5),
-                (4, 6),
-                (4, 7),
-                (4, 8),
-                (5, 3),
-                (5, 4),
-                (5, 5),
-                (6, 2),
-                (6, 4),
-                (6, 6),
-                (7, 1),
-                (7, 4),
-                (7, 7),
-                (8, 4),
-                (8, 8)
+                new FigurePosition(1, 1),
+                new FigurePosition(2, 2),
+                new FigurePosition(3, 3),
+                new FigurePosition(3, 4),
+                new FigurePosition(3, 5),
+                new FigurePosition(2, 4),
+                new FigurePosition(1, 4),
+                new FigurePosition(1, 7),
+                new FigurePosition(2, 6),
+                new FigurePosition(4, 1),
+                new FigurePosition(4, 2),
+                new FigurePosition(4, 3),
+                new FigurePosition(4, 5),
+                new FigurePosition(4, 6),
+                new FigurePosition(4, 7),
+                new FigurePosition(4, 8),
+                new FigurePosition(5, 3),
+                new FigurePosition(5, 4),
+                new FigurePosition(5, 5),
+                new FigurePosition(6, 2),
+                new FigurePosition(6, 4),
+                new FigurePosition(6, 6),
+                new FigurePosition(7, 1),
+                new FigurePosition(7, 4),
+                new FigurePosition(7, 7),
+                new FigurePosition(8, 4),
+                new FigurePosition(8, 8)
             };
 
             Queen rook = new Queen(4, 4);
