@@ -97,7 +97,6 @@ class ChessBoard extends Component {
 
     render() {
 
-        console.log("rendering squares", this.props);
         return (
 
             <div style={{ border: "2px solid black", width: "804px", margin: "0 auto" }}>
